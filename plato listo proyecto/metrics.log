@@ -1,0 +1,39 @@
+{"timestamp": "2025-11-25T08:02:24.323056Z", "eventos": "Métrica 1: Botón Mesero", "timestamp_local": "2025-11-25T05:02:24.323056-03:00"}
+{"timestamp": "2025-11-25T08:02:39.084705Z", "eventos": "Métrica 1: Botón Mesero", "timestamp_local": "2025-11-25T05:02:39.084705-03:00"}
+{"timestamp": "2025-11-25T08:02:42.938046Z", "eventos": "Métrica 1: Botón Chef", "timestamp_local": "2025-11-25T05:02:42.938046-03:00"}
+{"timestamp": "2025-11-25T08:03:18.740077Z", "eventos": "Métrica 1: Botón Mesero", "timestamp_local": "2025-11-25T05:03:18.740077-03:00"}
+{"timestamp": "2025-11-25T08:03:24.050849Z", "eventos": "Métrica 1: Enviar Pedido", "detalles": {"mesa": "gfdfgdf", "pedido": "dfgdfg"}, "timestamp_local": "2025-11-25T05:03:24.050849-03:00"}
+{"timestamp": "2025-11-25T08:03:29.116211Z", "eventos": "Métrica 1: Botón Chef", "timestamp_local": "2025-11-25T05:03:29.116211-03:00"}
+{"timestamp": "2025-11-25T08:06:15.202662Z", "eventos": "Métrica 1: Inicio App", "detalles": {"ts": "2025-11-25T08:06:15.202662Z"}, "timestamp_local": "2025-11-25T05:06:15.202662-03:00"}
+{"timestamp": "2025-11-25T08:06:23.287633Z", "eventos": "Métrica 1: Botón Mesero", "timestamp_local": "2025-11-25T05:06:23.287633-03:00"}
+{"timestamp": "2025-11-25T08:06:25.725729Z", "eventos": "Métrica 1: Botón Chef", "timestamp_local": "2025-11-25T05:06:25.725729-03:00"}
+{"timestamp": "2025-11-25T08:06:29.080525Z", "eventos": "Métrica 1: Duración Sesión", "detalles": {"start_ts": "2025-11-25T08:06:15.202662Z", "end_ts": "2025-11-25T08:06:29.080525Z", "duration_seconds": 13.877863}, "timestamp_local": "2025-11-25T05:06:29.080525-03:00"}
+{"timestamp": "2025-11-25T08:06:49.171025Z", "eventos": "Métrica 1: Inicio App", "detalles": {"ts": "2025-11-25T08:06:49.171025Z"}, "timestamp_local": "2025-11-25T05:06:49.171025-03:00"}
+{"timestamp": "2025-11-25T08:06:54.857092Z", "eventos": "Métrica 1: Duración Sesión", "detalles": {"start_ts": "2025-11-25T08:06:49.171025Z", "end_ts": "2025-11-25T08:06:54.857092Z", "duration_seconds": 5.686067}, "timestamp_local": "2025-11-25T05:06:54.857092-03:00"}
+{"timestamp": "2025-11-25T08:13:00.235143+00:00", "timestamp_local": "2025-11-25T05:13:00.235143-03:00", "eventos": "Métrica 1: Inicio App", "detalles": {"ts": "2025-11-25T08:13:00.235143+00:00"}}
+{"timestamp": "2025-11-25T08:13:03.441048+00:00", "timestamp_local": "2025-11-25T05:13:03.441048-03:00", "eventos": "Métrica 1: Botón Chef"}
+{"timestamp": "2025-11-25T08:13:10.377234+00:00", "timestamp_local": "2025-11-25T05:13:10.377234-03:00", "eventos": "Métrica 1: Botón Mesero"}
+{"timestamp": "2025-11-25T08:14:05.690061+00:00", "timestamp_local": "2025-11-25T05:14:05.690061-03:00", "eventos": "Métrica 1: Duración Sesión", "detalles": {"start_ts": "2025-11-25T08:13:00.235143+00:00", "end_ts": "2025-11-25T08:14:05.690061+00:00", "duration_seconds": 65.454918}}
+{"timestamp": "2025-11-25T08:15:58.120052Z", "timestamp_local": "2025-11-25T08:15:58.120052Z", "eventos": "Métrica 1: Inicio App", "detalles": {"ts_utc": "2025-11-25T08:15:58.115051+00:00", "ts_local": null}}
+{"timestamp": "2025-11-25T08:16:05.022098Z", "timestamp_local": "2025-11-25T08:16:05.022098Z", "eventos": "Métrica 1: Duración Sesión", "detalles": {"start_ts_utc": "2025-11-25T08:15:58.115051+00:00", "end_ts_utc": "2025-11-25T08:16:05.020095+00:00", "start_ts_local": null, "end_ts_local": null, "duration_seconds": 6.905044}}
+{"timestamp": "2025-11-25T08:20:14.703541Z", "timestamp_local": "2025-11-25T08:20:14.703541Z", "eventos": "Métrica 1: Inicio App", "detalles": {"ts_utc": "2025-11-25T08:20:14.697540+00:00", "ts_local": null}}
+{"timestamp": "2025-11-25T08:20:55.928169Z", "timestamp_local": "2025-11-25T08:20:55.928169Z", "eventos": "Métrica 1: Botón Mesero"}
+{"timestamp": "2025-11-25T08:20:56.990268Z", "timestamp_local": "2025-11-25T08:20:56.990268Z", "eventos": "Métrica 1: Duración Sesión", "detalles": {"start_ts_utc": "2025-11-25T08:20:14.697540+00:00", "end_ts_utc": "2025-11-25T08:20:56.989268+00:00", "start_ts_local": null, "end_ts_local": null, "duration_seconds": 42.291728}}
+{"timestamp": "2025-11-25T08:22:05.575707Z", "event": "Métrica 1: Inicio App", "details": {"ts": "2025-11-25T08:22:05.575707Z"}}
+{"timestamp": "2025-11-25T08:22:08.927192Z", "event": "Métrica 1: Botón Mesero"}
+{"timestamp": "2025-11-25T08:22:10.638855Z", "event": "Métrica 1: Duración Sesión", "details": {"start_ts": "2025-11-25T08:22:05.575707Z", "end_ts": "2025-11-25T08:22:10.638855Z", "duration_seconds": 5.063148}}
+{"timestamp": "2025-12-04T00:58:17.111859Z", "event": "Métrica 1: Inicio App", "details": {"ts": "2025-12-04T00:58:17.111859Z"}}
+{"timestamp": "2025-12-04T00:58:28.446740Z", "event": "Métrica 1: Botón Mesero"}
+{"timestamp": "2025-12-04T00:58:32.780522Z", "event": "Métrica 1: Botón Chef"}
+{"timestamp": "2025-12-04T00:58:34.468630Z", "event": "Métrica 1: Botón Chef"}
+{"timestamp": "2025-12-04T00:58:39.302595Z", "event": "Métrica 1: Botón Mesero"}
+{"timestamp": "2025-12-04T00:58:41.844731Z", "event": "Métrica 1: Enviar Pedido", "details": {"mesa": "assa", "pedido": "asas"}}
+{"timestamp": "2025-12-04T00:59:06.971577Z", "event": "Métrica 1: Enviar Pedido", "details": {"mesa": "12", "pedido": "sexito a domicilio"}}
+{"timestamp": "2025-12-04T01:01:01.895662Z", "event": "Métrica 1: Duración Sesión",implementación de métricas "details": {"start_ts": "2025-12-04T00:58:17.111859Z", "end_ts": "2025-12-04T01:01:01.895662Z", "duration_seconds": 164.783803}}
+{"timestamp": "2025-12-06T00:01:45.382704Z", "event": "Métrica 1: Inicio App", "details": {"ts": "2025-12-06T00:01:45.382704Z"}}
+{"timestamp": "2025-12-06T00:03:18.794680Z", "event": "Métrica 1: Botón Mesero"}
+{"timestamp": "2025-12-06T00:04:19.718899Z", "event": "Métrica 1: Enviar Pedido", "details": {"mesa": "7", "pedido": "hamburgesa sin pepinillos "}}
+{"timestamp": "2025-12-06T00:04:43.155474Z", "event": "Métrica 1: Botón Chef"}
+{"timestamp": "2025-12-06T00:05:52.668736Z", "event": "Métrica 1: Duración Sesión", "details": {"start_ts": "2025-12-06T00:01:45.382704Z", "end_ts": "2025-12-06T00:05:52.668736Z", "duration_seconds": 247.2860312461853}}
+{"timestamp": "2025-12-06T00:07:21.553615Z", "event": "Métrica 1: Inicio App", "details": {"ts": "2025-12-06T00:07:21.553615Z"}}
+{"timestamp": "2025-12-06T00:07:30.507143Z", "event": "Métrica 1: Duración Sesión", "details": {"start_ts": "2025-12-06T00:07:21.553615Z", "end_ts": "2025-12-06T00:07:30.507143Z", "duration_seconds": 8.95352840423584}}

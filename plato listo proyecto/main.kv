@@ -1,0 +1,84 @@
+
+
+#:kivy 2.0.0
+<MenuScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 20
+        padding: 40
+        Label:
+            text: 'Plato Listo'
+            font_size: 32
+            bold: True
+        Label:
+            text: '¿Cómo quieres entrar?'
+            font_size: 20
+        Button:
+            text: 'Mesero'
+            font_size: 24
+            size_hint_y: None
+            height: 60
+            on_press: app.record_event('Métrica 1: Botón Mesero'); root.manager.current = 'mesero'
+        Button:
+            text: 'Chef'
+            font_size: 24
+            size_hint_y: None
+            height: 60
+            on_press: app.record_event('Métrica 1: Botón Chef'); root.manager.current = 'chef'
+
+<MeseroScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 15
+        padding: 30
+        Label:
+            text: 'Mesero - Toma de Pedido'
+            font_size: 28
+            bold: True
+        TextInput:
+            id: mesa_input
+            hint_text: 'Número de mesa'
+            font_size: 20
+            size_hint_y: None
+            height: 50
+        TextInput:
+            id: pedido_input
+            hint_text: 'Pedido (ej: Hamburguesa, sin cebolla)'
+            font_size: 20
+            size_hint_y: None
+            height: 50
+        Button:
+            text: 'Enviar pedido'
+            font_size: 22
+            size_hint_y: None
+            height: 55
+            on_press: root.enviar_pedido()
+        Button:
+            text: 'Volver al menú principal'
+            font_size: 18
+            size_hint_y: None
+            height: 45
+            on_press: root.manager.current = 'menu'
+
+<ChefScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 15
+        padding: 30
+        Label:
+            text: 'Chef - Pedidos recibidos'
+            font_size: 28
+            bold: True
+        ScrollView:
+            size_hint_y: 0.7
+            GridLayout:
+                id: pedidos_layout
+                cols: 1
+                size_hint_y: None
+                height: self.minimum_height
+        Button:
+            text: 'Volver al menú principal'
+            font_size: 18
+            size_hint_y: None
+            height: 45
+            on_press: root.manager.current = 'menu'
